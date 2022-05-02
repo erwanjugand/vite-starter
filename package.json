@@ -1,0 +1,46 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "author": {
+    "name": "Erwan Jugand",
+    "url": "https://erwan-jugand.fr/"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "eslint": "eslint --ext .ts --ignore-path .gitignore .",
+    "eslint:fix": "yarn eslint --fix",
+    "stylelint": "stylelint '**/*.scss'",
+    "stylelint:fix": "yarn stylelint --fix"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.30",
+    "@types/webpack": "^5.28.0",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "autoprefixer": "^10.4.7",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.14.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "postcss": "^8.4.13",
+    "postcss-loader": "^6.2.1",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "stylelint": "^14.8.1",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-order": "^5.0.0",
+    "the-new-css-reset": "^1.6.0",
+    "ts-loader": "^9.3.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 1 versions"
+  ]
+}
