@@ -17,7 +17,7 @@
     "stylelint:fix": "yarn stylelint --fix"
   },
   "devDependencies": {
-    "@types/node": "^17.0.30",
+    "@types/node": "^18.0.0",
     "@types/webpack": "^5.28.0",
     "@typescript-eslint/eslint-plugin": "^5.22.0",
     "@typescript-eslint/parser": "^5.22.0",
