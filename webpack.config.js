@@ -6,45 +6,41 @@ module.exports = {
 
   output: {
     filename: 'script.js',
-    clean: true
+    clean: true,
   },
 
   module: {
     rules: [
       {
         test: /\.ts?$/,
-        use: [
-          'ts-loader'
-        ]
+        use: ['ts-loader'],
       },
       {
         test: /\.s[ac]ss$/i,
         use: [
           MiniCssExtractPlugin.loader,
           {
-            loader: 'css-loader'
+            loader: 'css-loader',
           },
           {
             loader: 'postcss-loader',
             options: {
               postcssOptions: {
-                plugins: [
-                  ['autoprefixer']
-                ]
-              }
-            }
+                plugins: [['autoprefixer']],
+              },
+            },
           },
           {
-            loader: 'sass-loader'
-          }
+            loader: 'sass-loader',
+          },
         ],
-      }
-    ]
+      },
+    ],
   },
 
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'style.css'
-    })
+      filename: 'style.css',
+    }),
   ],
 }

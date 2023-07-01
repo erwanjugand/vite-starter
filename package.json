@@ -11,10 +11,14 @@
   "scripts": {
     "dev": "webpack --mode=development",
     "build": "webpack --mode=production",
-    "eslint": "eslint --ext .ts --ignore-path .gitignore .",
-    "eslint:fix": "yarn eslint --fix",
-    "stylelint": "stylelint '**/*.scss'",
-    "stylelint:fix": "yarn stylelint --fix"
+    "check:prettier": "prettier --check .",
+    "check:eslint": "eslint --ext .ts .",
+    "check:stylelint": "stylelint **/*.{scss,sass}",
+    "check:all": "pnpm check:prettier && pnpm check:eslint && pnpm check:stylelint",
+    "fix:prettier": "prettier --loglevel warn --write .",
+    "fix:eslint": "pnpm check:eslint --fix",
+    "fix:stylelint": "pnpm check:stylelint --fix",
+    "fix:all": "pnpm fix:prettier && pnpm fix:eslint && pnpm fix:stylelint"
   },
   "devDependencies": {
     "@types/node": "18.16.18",
@@ -27,6 +31,7 @@
     "mini-css-extract-plugin": "2.7.6",
     "postcss": "8.4.24",
     "postcss-loader": "7.3.3",
+    "prettier": "2.8.8",
     "sass": "1.63.6",
     "sass-loader": "13.3.2",
     "stylelint": "15.9.0",

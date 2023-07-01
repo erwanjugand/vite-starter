@@ -1,6 +1,4 @@
 {
   "extends": "stylelint-config-sass-guidelines",
-  "plugins": [
-    "stylelint-order"
-  ]
+  "plugins": ["stylelint-order"]
 }
