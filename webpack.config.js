@@ -1,7 +1,6 @@
-const path = require('path')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+import MiniCssExtractPlugin from 'mini-css-extract-plugin'
 
-module.exports = {
+export default {
   entry: './src/index.ts',
 
   output: {
