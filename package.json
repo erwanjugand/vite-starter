@@ -35,7 +35,7 @@
     "sass": "1.77.6",
     "sass-loader": "14.2.1",
     "stylelint": "16.6.1",
-    "stylelint-config-sass-guidelines": "11.1.0",
+    "stylelint-config-sass-guidelines": "12.0.0",
     "stylelint-order": "6.0.4",
     "the-new-css-reset": "1.11.2",
     "ts-loader": "9.5.1",
