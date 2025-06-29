@@ -1,3 +1,3 @@
-# webpack-starter
+# vite-starter
 
-Webpack starter
+Vite starter
