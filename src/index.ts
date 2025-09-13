@@ -1,2 +1,2 @@
-// oxlint-disable-next-line no-empty-file
+// oxlint-disable no-empty-file
 // Starter
