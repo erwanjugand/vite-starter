@@ -25,6 +25,7 @@
     "fix:all": "pnpm fix:prettier && pnpm fix:lint && pnpm fix:stylelint"
   },
   "devDependencies": {
+    "@erwanjugand/prettier-config": "1.0.0",
     "@prettier/plugin-oxc": "0.1.4",
     "oxlint": "1.62.0",
     "prettier": "3.8.3",
