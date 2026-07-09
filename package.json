@@ -33,7 +33,7 @@
     "sass-embedded": "1.100.0",
     "stylelint": "17.14.0",
     "the-new-css-reset": "1.11.3",
-    "typescript": "6.0.3",
+    "typescript": "7.0.2",
     "vite": "8.1.3"
   }
 }
