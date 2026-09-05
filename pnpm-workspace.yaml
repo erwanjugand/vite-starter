@@ -1,2 +1,5 @@
 minimumReleaseAgeExclude:
   - '@erwanjugand/*'
+minimumReleaseAgeExcludePrune: true
+allowBuilds:
+  '@parcel/watcher': false
