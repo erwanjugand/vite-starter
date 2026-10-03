@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "packageManager": "pnpm@12.3.4",
+  "packageManager": "pnpm@12.8.1",
   "name": "vite-starter",
   "version": "1.0.0",
   "description": "",
@@ -25,15 +25,15 @@
     "fix:all": "pnpm fix:prettier && pnpm fix:lint && pnpm fix:stylelint"
   },
   "devDependencies": {
-    "@erwanjugand/prettier-config": "1.1.1",
-    "@erwanjugand/stylelint-config": "2.0.0",
-    "@prettier/plugin-oxc": "0.2.2",
-    "oxlint": "1.81.0",
-    "prettier": "3.9.6",
-    "sass-embedded": "1.104.0",
-    "stylelint": "17.14.1",
+    "@erwanjugand/prettier-config": "1.1.2",
+    "@erwanjugand/stylelint-config": "2.0.1",
+    "@prettier/plugin-oxc": "0.2.3",
+    "oxlint": "1.86.0",
+    "prettier": "3.9.9",
+    "sass-embedded": "1.105.1",
+    "stylelint": "17.16.0",
     "the-new-css-reset": "1.11.3",
     "typescript": "6.0.3",
-    "vite": "8.2.2"
+    "vite": "8.3.2"
   }
 }
