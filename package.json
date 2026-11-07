@@ -31,7 +31,7 @@
     "oxlint": "1.91.0",
     "prettier": "3.9.10",
     "sass-embedded": "1.108.0",
-    "stylelint": "17.16.0",
+    "stylelint": "18.0.0",
     "the-new-css-reset": "1.11.3",
     "typescript": "6.0.3",
     "vite": "8.3.6"
